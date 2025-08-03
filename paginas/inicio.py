@@ -79,7 +79,7 @@ with col1:
         """, unsafe_allow_html=True)
         
         if st.button("Ver Exames", key="exames", use_container_width=True):
-            st.switch_page('paginas/tela_login.py') # ATENÇÃO: Verifique se este é o nome correto do arquivo de exames.
+            st.switch_page('paginas/exames.py') 
 
 # Coluna 2: Registros do Pet
 with col2:
