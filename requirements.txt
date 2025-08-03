@@ -1,0 +1,2 @@
+streamlit>=1.4
+Authlib>=1.32
