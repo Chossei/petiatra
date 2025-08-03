@@ -64,7 +64,7 @@ else:
     paginas = {
     'Início': [st.Page(page='paginas/inicio.py', title = 'Homepage',
                     default = True, )],
-    'Seu pet': [st.Page(page = 'paginas/tela_login.py', title= 'Exames'),
+    'Seu pet': [st.Page(page = 'paginas/exames.py', title= 'Exames'),
                 st.Page(page = 'paginas/registros.py', title = 'Registros'),
                 st.Page(page = "paginas/chatbot.py", title = 'PetIA')]
     }
