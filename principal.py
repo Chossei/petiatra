@@ -70,7 +70,7 @@ else:
     }
     pg = st.navigation(paginas)
     pg.run()
-    if st.sidebar.button("Log out"):
+    if st.sidebar.button("Log out", use_container_width=True):
         st.logout()
 
 
